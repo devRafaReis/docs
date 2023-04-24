@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+@import url("styles/login.css");
+@import url("styles/home.css");
+@import url("styles/docs.css");
+
+:root {
+  --cor-de-fundo: #ebecee;
+  --branco: #ffffff;
+  --laranja: #f77522;
+  --marrom: #7C3B12;
+  --marrom-escuro: #4A230B;
+  --azul-degrade-login: linear-gradient(90deg, #152331 0%, #000000 100%);
+  --preto: #000000;
+  --cinza: #5d6778;
+  --azul: #2c58e6;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+
+

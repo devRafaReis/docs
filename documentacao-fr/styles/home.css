@@ -1,0 +1,179 @@
+/*Header*/
+
+nav li a {
+  color: var(--cinza);
+  text-decoration: none;
+  transition: 0.4s;
+  border-bottom: 2px solid transparent;
+  font-weight: bold;
+}
+
+nav li a:hover {
+  border-color: var(--cinza);
+  color: var(--laranja);
+}
+
+.logo {
+  font-size: 20px;
+}
+
+.logo img {
+  margin-right: 10px;
+}
+
+.logo {
+  color: var(--laranja);
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 2px solid var(--cinza);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  height: 8vh;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+main {
+  background-color: var(--cor-de-fundo);
+}
+
+/*conteudo principal*/
+
+.principal {
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.texto-principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  background-color: #fff;
+  height: 400px;
+  width: 700px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.texto-principal h1 {
+  color: var(--preto);
+}
+
+.texto-principal h1:hover {
+  color: var(--laranja);
+}
+
+.texto-principal p {
+  margin-top: 20px;
+}
+
+.imagem-principal {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  height: 500px;
+  width: 500px;
+}
+
+/*cards*/
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-top: 1px solid #d8d9db;
+}
+
+.card-container {
+  border-radius: 10px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 25vw;
+  background-color: #fff;
+  height: 200px;
+  transition: 0.4s;
+  cursor: pointer;
+  margin: 30px 20px;
+}
+
+.card-container:hover {
+  background-color: #f7742225;
+}
+
+.card-container h2:hover {
+  color: var(--laranja);
+}
+
+.card_content {
+  text-align: center;
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0;
+  color: #5d6778;
+  font-weight: bold;
+}
+
+.card-description {
+  display: flex;
+  justify-content: center;
+  color: #5d6778;
+}
+
+.card-description:hover {
+  color: var(--preto);
+}
+
+/*footer*/
+
+.footer {
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 100%;
+  border-top: 1px solid #d8d9db;
+}
+
+.footer span {
+  font-weight: bold;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #000 !important;
+}
+
+.footer p {
+  font-weight: bold;
+  color: #000;
+  margin-left: 5px;
+}
+
+.footer-email {
+  color: #f77522 !important;
+}
+
+.footer span:hover {
+  color: #f77522;
+}
